@@ -24,7 +24,7 @@ class MainActivity : ComponentActivity() {
             ExoplayerSampleTheme {
                 Surface {
                     val navController = rememberNavController()
-                    NavHost(navController = navController, startDestination = SinglePlayerScreenMetaData.SCREEN_NAME) {
+                    NavHost(navController = navController, startDestination = NavigationGroupsScreenMetaData.SCREEN_NAME) {
                         composable(route = NavigationGroupsScreenMetaData.SCREEN_NAME) {
                             NavigationGroupsScreen(navController = navController)
                         }
