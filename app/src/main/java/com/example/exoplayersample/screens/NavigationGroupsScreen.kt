@@ -36,6 +36,12 @@ fun NavigationGroupsScreen(
     }
 }
 
+class NavigationGroupsScreenMetaData {
+    companion object {
+        const val SCREEN_NAME = "Navigation List"
+    }
+}
+
 enum class Category {
     XML,
     Compose
