@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ExoplayerSample</string>
+    <string name="single_player_screen">Single player screen</string>
 </resources>

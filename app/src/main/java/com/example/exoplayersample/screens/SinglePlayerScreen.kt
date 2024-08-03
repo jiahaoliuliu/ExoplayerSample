@@ -1,6 +1,5 @@
 package com.example.exoplayersample.screens
 
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.outlined.ArrowBack
@@ -38,10 +37,13 @@ fun SinglePlayerScreen(modifier: Modifier = Modifier,
         }
 
     ) { innerPadding ->
-        Box(modifier = Modifier.padding(innerPadding)) {
-            Text("Single player screen")
-        }
+        SinglePlayer(Modifier.padding(innerPadding))
     }
+}
+
+@Composable
+fun SinglePlayer(modifier: Modifier = Modifier) {
+
 }
 
 class SinglePlayerScreenMetaData {
